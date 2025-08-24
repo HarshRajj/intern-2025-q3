@@ -29,6 +29,17 @@ A minimal Python script that generates tweets using a prompt template and the Go
     python main.py
     ```
 
+## Output Example
+
+```
+{"topic": "the joy of discovering new music", "tone": "enthusiastic", "max_words": 35, "event": "Generating tweet: request sent", "level": "info", "timestamp": "2025-08-24T05:10:29.106389Z"}
+{"topic": "the joy of discovering new music", "response_text": "OMG just found the BEST new band!  My ears are SO happy.  This is what life is all about! 🤩", "event": "Generating tweet: response received", "level": "info", "timestamp": "2025-08-24T05:10:29.861538Z"}
+--- Sample Tweet ---
+Topic: the joy of discovering new music, Tone: enthusiastic, Max Words: 35
+Tweet: OMG just found the BEST new band!  My ears are SO happy.  This is what life is all about! 🤩
+--------------------
+```
+
 ## Demo
 
 [**▶️ Run on Google Colab**](https://colab.research.google.com/drive/1jQ2d44NQM7ZS1q6DSb8lrnipzdu3T5Gx?usp=sharing)
