@@ -14,7 +14,7 @@ structlog.configure(
 )
 log = structlog.get_logger()
 
-GEMINI_MODEL = 'gemini-1.5-flash'
+GEMINI_MODEL = 'gemini-2.0-flash'
 TWEET_SAMPLES = [
     {"topic": "the future of renewable energy", "tone": "optimistic", "max_words": 30},
     {"topic": "tips for effective remote work", "tone": "professional", "max_words": 25},
